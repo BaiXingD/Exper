@@ -52,7 +52,7 @@ void Quick_sort(vector<int> &source) {
 
 
 
-//¹é²¢ÅÅÐò¡£¡£¡£¡£¡£¡£
+//ï¿½é²¢ï¿½ï¿½ï¿½ò¡£¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 void mergeArray(vector<int> &source, int begin, int mid, int end) {
 	int i = begin, j = mid + 1;
 	vector<int> temp;
@@ -105,6 +105,6 @@ int main()
 		cout << *iter << endl;
 	}
 
-	//system("pause");
+	system("pause");
 	return 0;
 }
